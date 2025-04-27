@@ -1,5 +1,39 @@
 /* Explore Page Styles */
 
+/* Navbar Scroll Behavior */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+header.nav-hidden {
+    transform: translateY(-100%);
+}
+
+header.scrolling-up {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Position Adjustment */
+.explore-sidebar,
+.explore-right-sidebar {
+    position: sticky;
+    top: 90px; /* Default top position when navbar is visible */
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    transition: top 0.3s ease; /* Add transition for smooth adjustment */
+}
+
+/* Adjust top position when navbar is hidden */
+header.nav-hidden ~ .explore-main .explore-sidebar,
+header.nav-hidden ~ .explore-main .explore-right-sidebar {
+    top: 10px; /* Reduced top when navbar is hidden */
+}
+
 /* General Layout */
 .explore-hero {
     background-color: var(--primary-color);
