@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Campus Carva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="explore-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Campus Carva</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#features">Features</a>
+                <a href="index.html#marketplace">Marketplace</a>
+                <a href="index.html#events">Events</a>
+                <a href="explore.html" class="active">Explore</a>
+                <a href="index.html#mentorship">Mentorship</a>
+                <a href="index.html#about">About Us</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-secondary">Login</a>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="explore-hero">
+        <div class="explore-hero-content">
+            <h1>Explore Campus Carva</h1>
+            <p>Connect with fellow students, join communities, and discover opportunities</p>
+        </div>
+    </section>
+
+    <section class="explore-main">
+        <div class="explore-container">
+            <div class="explore-sidebar">
+                <div class="user-profile">
+                    <div class="profile-img">
+                        <img src="https://placehold.co/100x100?text=You" alt="Your Profile">
+                    </div>
+                    <h3>Mayank Goyal</h3>
+                    <p>Delhi University</p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <span>124</span>
+                            <p>Connections</p>
+                        </div>
+                        <div class="stat">
+                            <span>18</span>
+                            <p>Communities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <h4>Discover</h4>
+                    <ul>
+                        <li class="active"><a href="#"><i class="fas fa-home"></i> Feed</a></li>
+                        <li><a href="#"><i class="fas fa-globe"></i> Trending</a></li>
+                        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+                        <li><a href="#"><i class="fas fa-bookmark"></i> Saved</a></li>
+                        <li><a href="#"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                    </ul>
+                    <h4>Your Communities</h4>
+                    <ul class="communities-list">
+                        <li><a href="#"><i class="fas fa-laptop-code"></i> Tech Innovators</a></li>
+                        <li><a href="#"><i class="fas fa-palette"></i> Creative Design Hub</a></li>
+                        <li><a href="#"><i class="fas fa-graduation-cap"></i> Delhi University Network</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Future Entrepreneurs</a></li>
+                        <li><a href="#"><i class="fas fa-book"></i> Study Buddies</a></li>
+                        <li><a href="#" class="see-more">See more...</a></li>
+                    </ul>
+                    <h4>Campus Guilds</h4>
+                    <ul class="communities-list">
+                        <li><a href="#"><i class="fas fa-code"></i> Hackathon Winners</a></li>
+                        <li><a href="#"><i class="fas fa-tshirt"></i> Fashion Community</a></li>
+                        <li><a href="#"><i class="fas fa-gamepad"></i> Gaming League</a></li>
+                        <li><a href="#" class="see-more">See more...</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explore-content">
+                <div class="create-post">
+                    <div class="post-input">
+                        <img src="https://placehold.co/50x50?text=You" alt="Your Profile">
+                        <input type="text" placeholder="Share something with the community...">
+                    </div>
+                    <div class="post-options">
+                        <button><i class="fas fa-image"></i> Photo/Video</button>
+                        <button><i class="fas fa-link"></i> Link</button>
+                        <button><i class="fas fa-calendar-plus"></i> Event</button>
+                        <button class="post-button">Post</button>
+                    </div>
+                </div>
+                
+                <div class="feed-filters">
+                    <button class="active">All Posts</button>
+                    <button>Featured</button>
+                    <button>Popular</button>
+                    <button>My Communities</button>
+                    <select>
+                        <option>Sort by: Recent</option>
+                        <option>Sort by: Popular</option>
+                        <option>Sort by: Trending</option>
+                    </select>
+                </div>
+
+                <div class="feed">
+                    <!-- Hackathon Achievement Post -->
+                    <div class="feed-post">
+                        <div class="post-header">
+                            <img src="https://placehold.co/50x50?text=VK" alt="Vishal Kumar">
+                            <div>
+                                <h4>Vishal Kumar <span class="verified-badge"><i class="fas fa-check"></i></span></h4>
+                                <p>Computer Science, IIT Delhi • 6h ago</p>
+                            </div>
+                            <div class="post-actions">
+                                <button><i class="fas fa-ellipsis-h"></i></button>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Excited to share that our team "CodeCrafters" just won the National Hackathon Challenge 2025! 🏆 We built an AI-powered study assistant that helps students create personalized learning paths. Huge thanks to my amazing teammates Priya, Arjun, and Neha!</p>
+                            <div class="post-gallery">
+                                <img src="https://placehold.co/800x450?text=Hackathon+Winners" alt="Hackathon Winners">
+                            </div>
+                            <div class="post-tags">
+                                <span>#Hackathon</span>
+                                <span>#CodingWin</span>
+                                <span>#StudentInnovation</span>
+                                <span>#TechTalent</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>328</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-comment"></i>
+                                <span>42</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-share"></i>
+                                <span>17</span>
+                            </div>
+                        </div>
+                        <div class="post-comments">
+                            <div class="comment">
+                                <img src="https://placehold.co/40x40?text=RS" alt="Rahul Shah">
+                                <div class="comment-content">
+                                    <h5>Rahul Shah</h5>
+                                    <p>Congratulations team! The demo was incredible. Would love to learn more about the tech stack you used.</p>
+                                    <div class="comment-actions">
+                                        <span>Like</span>
+                                        <span>Reply</span>
+                                        <span>2h ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-comment">
+                                <img src="https://placehold.co/40x40?text=You" alt="Your Profile">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fashion Show Post -->
+                    <div class="feed-post">
+                        <div class="post-header">
+                            <img src="https://placehold.co/50x50?text=AK" alt="Anjali Kapoor">
+                            <div>
+                                <h4>Anjali Kapoor</h4>
+                                <p>Fashion Design, NIFT Mumbai • 1d ago</p>
+                            </div>
+                            <div class="post-actions">
+                                <button><i class="fas fa-ellipsis-h"></i></button>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Still buzzing from yesterday's Campus Fashion Week finale! My sustainable fashion collection "EcoChic" won the Designer of the Year award! 👗♻️ The journey from sketches to runway was incredible, and I'm so grateful for this opportunity to showcase how fashion can be both beautiful and environmentally conscious. </p>
+                            <div class="post-gallery multiple">
+                                <img src="https://placehold.co/800x450?text=Fashion+Show+1" alt="Fashion Show">
+                                <img src="https://placehold.co/800x450?text=Fashion+Show+2" alt="Fashion Show">
+                                <img src="https://placehold.co/800x450?text=Fashion+Show+3" alt="Fashion Show">
+                                <div class="gallery-more">+2</div>
+                            </div>
+                            <div class="post-tags">
+                                <span>#CampusFashionWeek</span>
+                                <span>#SustainableFashion</span>
+                                <span>#DesignerOfTheYear</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>472</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-comment"></i>
+                                <span>58</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-share"></i>
+                                <span>24</span>
+                            </div>
+                        </div>
+                        <div class="post-comments">
+                            <div class="comment">
+                                <img src="https://placehold.co/40x40?text=SK" alt="Sneha Khanna">
+                                <div class="comment-content">
+                                    <h5>Sneha Khanna</h5>
+                                    <p>Your collection was amazing! The recycled fabric techniques were so innovative. Would love to know more about your creative process!</p>
+                                    <div class="comment-actions">
+                                        <span>Like</span>
+                                        <span>Reply</span>
+                                        <span>12h ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-comment">
+                                <img src="https://placehold.co/40x40?text=You" alt="Your Profile">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Student Entrepreneurship Post -->
+                    <div class="feed-post">
+                        <div class="post-header">
+                            <img src="https://placehold.co/50x50?text=RJ" alt="Rohan Joshi">
+                            <div>
+                                <h4>Rohan Joshi <span class="community-post">Posted in <a href="#">Future Entrepreneurs</a></span></h4>
+                                <p>Business Administration, Symbiosis Pune • 2d ago</p>
+                            </div>
+                            <div class="post-actions">
+                                <button><i class="fas fa-ellipsis-h"></i></button>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Thrilled to announce that our student startup "EcoEats" has secured ₹15 Lakhs in seed funding from the university innovation grant! 🚀 We're working to reduce food waste by connecting college canteens with local shelters for surplus food distribution.</p>
+                            <p>Looking for passionate students to join our tech and operations team! Drop a comment if interested.</p>
+                            <div class="post-tags">
+                                <span>#StudentStartup</span>
+                                <span>#SocialEnterprise</span>
+                                <span>#FoodWaste</span>
+                                <span>#Funding</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>392</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-comment"></i>
+                                <span>76</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-share"></i>
+                                <span>29</span>
+                            </div>
+                        </div>
+                        <div class="post-comments">
+                            <div class="comment">
+                                <img src="https://placehold.co/40x40?text=AM" alt="Amit Mehta">
+                                <div class="comment-content">
+                                    <h5>Amit Mehta</h5>
+                                    <p>This is such a great initiative! I'm a final year CS student with experience in mobile app development. Would love to contribute to the tech side.</p>
+                                    <div class="comment-actions">
+                                        <span>Like</span>
+                                        <span>Reply</span>
+                                        <span>1d ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <img src="https://placehold.co/40x40?text=PS" alt="Priya Singh">
+                                <div class="comment-content">
+                                    <h5>Priya Singh</h5>
+                                    <p>Congratulations! I've worked with NGOs focused on hunger relief. Would love to help with partnerships.</p>
+                                    <div class="comment-actions">
+                                        <span>Like</span>
+                                        <span>Reply</span>
+                                        <span>1d ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-comment">
+                                <img src="https://placehold.co/40x40?text=You" alt="Your Profile">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Study Group Post -->
+                    <div class="feed-post">
+                        <div class="post-header">
+                            <img src="https://placehold.co/50x50?text=NS" alt="Neha Sharma">
+                            <div>
+                                <h4>Neha Sharma <span class="community-post">Posted in <a href="#">Study Buddies</a></span></h4>
+                                <p>BSc Physics, St. Xavier's College • 3d ago</p>
+                            </div>
+                            <div class="post-actions">
+                                <button><i class="fas fa-ellipsis-h"></i></button>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Creating a study group for the upcoming Advanced Quantum Mechanics exam! 📚 We'll be meeting every Tuesday and Thursday from 4-6 PM at the Central Library, starting tomorrow. I've compiled some great resources that really helped me understand the wave functions and matrix mechanics.</p>
+                            <p>Drop a comment if you want to join or have resources to share! Let's ace this exam together! 💯</p>
+                            <div class="post-file">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Quantum_Mechanics_Study_Guide.pdf</span>
+                                <button>Download</button>
+                            </div>
+                            <div class="post-tags">
+                                <span>#PhysicsHelp</span>
+                                <span>#StudyGroup</span>
+                                <span>#QuantumMechanics</span>
+                                <span>#ExamPrep</span>
+                            </div>
+                        </div>
+                        <div class="post-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>88</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-comment"></i>
+                                <span>32</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-share"></i>
+                                <span>14</span>
+                            </div>
+                        </div>
+                        <div class="post-comments">
+                            <div class="comment">
+                                <img src="https://placehold.co/40x40?text=AH" alt="Arjun Hegde">
+                                <div class="comment-content">
+                                    <h5>Arjun Hegde</h5>
+                                    <p>I'm in! I've been struggling with Schrödinger's equations. Also, I have practice problems from last year that I can share.</p>
+                                    <div class="comment-actions">
+                                        <span>Like</span>
+                                        <span>Reply</span>
+                                        <span>2d ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-comment">
+                                <img src="https://placehold.co/40x40?text=You" alt="Your Profile">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="explore-right-sidebar">
+                <div class="trending-section">
+                    <h3>Trending Now</h3>
+                    <div class="trending-item">
+                        <span class="trend-number">#1</span>
+                        <div>
+                            <h4>National Hackathon Challenge</h4>
+                            <p>2.4K posts this week</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <span class="trend-number">#2</span>
+                        <div>
+                            <h4>Campus Fashion Week</h4>
+                            <p>1.8K posts this week</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <span class="trend-number">#3</span>
+                        <div>
+                            <h4>Summer Internship Opportunities</h4>
+                            <p>1.3K posts this week</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <span class="trend-number">#4</span>
+                        <div>
+                            <h4>Gaming Tournament Signups</h4>
+                            <p>950 posts this week</p>
+                        </div>
+                    </div>
+                    <div class="trending-item">
+                        <span class="trend-number">#5</span>
+                        <div>
+                            <h4>Campus Fest 2025</h4>
+                            <p>820 posts this week</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="upcoming-events">
+                    <h3>Upcoming Events</h3>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">30</span>
+                            <span class="month">Apr</span>
+                        </div>
+                        <div class="event-info">
+                            <h4>Code Warriors Hackathon</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Tech Hub, Delhi</p>
+                            <p><i class="fas fa-users"></i> 230 Going</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">05</span>
+                            <span class="month">May</span>
+                        </div>
+                        <div class="event-info">
+                            <h4>Ultimate Gaming Championship</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> E-Sports Arena, Mumbai</p>
+                            <p><i class="fas fa-users"></i> 186 Going</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">May</span>
+                        </div>
+                        <div class="event-info">
+                            <h4>Campus Fashion Week</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> Design School Auditorium</p>
+                            <p><i class="fas fa-users"></i> 312 Going</p>
+                        </div>
+                    </div>
+                    <button class="see-all-btn">See All Events</button>
+                </div>
+                
+                <div class="communities-to-join">
+                    <h3>Suggested Communities</h3>
+                    <div class="community-suggestion">
+                        <div class="community-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="community-info">
+                            <h4>Student Innovators</h4>
+                            <p>8.2K members</p>
+                        </div>
+                        <button class="join-btn">Join</button>
+                    </div>
+                    <div class="community-suggestion">
+                        <div class="community-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="community-info">
+                            <h4>Literature Circle</h4>
+                            <p>4.7K members</p>
+                        </div>
+                        <button class="join-btn">Join</button>
+                    </div>
+                    <div class="community-suggestion">
+                        <div class="community-icon">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="community-info">
+                            <h4>Campus Photographers</h4>
+                            <p>5.3K members</p>
+                        </div>
+                        <button class="join-btn">Join</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="explore-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Campus Carva</h2>
+                <p>Learn. Teach. Earn.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Features</h3>
+                    <a href="index.html#features">Skill Exchange</a>
+                    <a href="index.html#features">Jobs & Internships</a>
+                    <a href="index.html#marketplace">Student Marketplace</a>
+                    <a href="index.html#events">Events & Competitions</a>
+                    <a href="index.html#features">Cashback & Deals</a>
+                    <a href="index.html#mentorship">Mentorship</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <a href="#">Blog</a>
+                    <a href="#">Student Guide</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <a href="index.html#about">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Campus Carva. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="explore.js"></script>
+</body>
+</html>
