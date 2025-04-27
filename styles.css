@@ -224,7 +224,8 @@ nav {
 
 .hero-image img {
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow-dark);
+    max-width: 100%;
+    height: auto;
 }
 
 /* Features Section */
